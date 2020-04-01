@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/my_project/phpimage:v01', '.']
+  args: ['build', '-t', 'gcr.io/arpanlearning/phpimage:v01', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/my_project/phpimage:v01']
+  args: ['push', 'gcr.io/arpanlearning/phpimage:v01']
